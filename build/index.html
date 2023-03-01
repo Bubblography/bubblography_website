@@ -20,14 +20,13 @@
             id="hamburger-button"
             class="relative h-8 w-8 cursor-pointer text-3xl md:hidden"
           >
-            <!-- &#9776; -->
             <div
               class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"
             ></div>
           </button>
           <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
             <a href="#photos" class="hover:opacity-90">Photos</a>
-            <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
+            <a href="#testimonials" class="hover:opacity-90">About Me</a>
             <a href="#contact" class="hover:opacity-90">Contact Me</a>
           </nav>
         </div>
@@ -36,9 +35,6 @@
         id="mobile-menu"
         class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl"
       >
-        <!-- <button class="text-8xl self-end px-6">
-                &times;
-            </button> -->
         <nav
           class="flex min-h-screen flex-col items-center py-8"
           aria-label="mobile"
@@ -50,9 +46,9 @@
             >Photos</a
           >
           <a
-            href="#testimonials"
+            href="#about me"
             class="w-full py-6 text-center hover:opacity-90"
-            >Testimonials</a
+            >About Me</a
           >
           <a href="#contact" class="w-full py-6 text-center hover:opacity-90"
             >Contact Me</a
@@ -70,33 +66,36 @@
       >
         <article class="sm:w-1/2">
           <h2
-            class="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl"
+            class="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-4xl"
           >
-            We Boldy Go
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+            soluta inventore fugiat
             <span class="text-indigo-700 dark:text-indigo-300"
-              >Where No Rocket</span
+              >sapiente dicta blanditiis possimus itaque cumque corrupti saepe
+              ad explicabo ratione omnis suscipit ipsum, voluptate similique
+              voluptatum nisi?</span
             >
-            Has Gone Before...
           </h2>
           <p
             class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
           >
-            We're building rockets for the next century today. From the moon to
-            Mars, Jupiter and beyond...
-          </p>
-          <p
-            class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
-          >
-            Think Acme Rockets.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam,
+            optio? Nemo nulla odio facere iste, illum, temporibus odit unde
+            expedita quidem repellat dolores eveniet. Recusandae facere quasi
+            accusantium inventore voluptatem?
           </p>
         </article>
-        <img class="w-1/2" src="" alt="Rocket Dab" />
+        <img
+          class="mx-auto rounded sm:max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg"
+          src="/build/img/MB_Bubble32.jpg"
+          alt="<MB>"
+        />
       </section>
 
       <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
 
       <section
-        id="rockets"
+        id="photos"
         class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6"
       >
         <h2
@@ -105,7 +104,7 @@
           Some Shots
         </h2>
         <ul class="-mx-4 flex flex-wrap">
-          <li class="mb-8 w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4">
+          <li class="mb-8 w-full px-4 md:w-1/2 lg:w-1/2 xl:w-1/2">
             <div class="max-w-md border border-transparent">
               <a href="https://www.instagram.com/bubblography/" target="_blank">
                 <img
@@ -116,7 +115,7 @@
               </a>
             </div>
           </li>
-          <li class="mb-8 w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4">
+          <li class="mb-8 w-full px-4 md:w-1/2 lg:w-1/2 xl:w-1/2">
             <div class="max-w-md border border-transparent">
               <a href="https://www.instagram.com/bubblography/" target="_blank">
                 <img
@@ -127,7 +126,7 @@
               </a>
             </div>
           </li>
-          <li class="mb-8 w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4">
+          <li class="mb-8 w-full px-4 md:w-1/2 lg:w-1/2 xl:w-1/2">
             <div class="max-w-md border border-transparent">
               <a href="https://www.instagram.com/bubblography/" target="_blank">
                 <img
@@ -138,7 +137,7 @@
               </a>
             </div>
           </li>
-          <li class="mb-8 w-full px-4 md:w-1/2 lg:w-1/3 xl:w-1/4">
+          <li class="mb-8 w-full px-4 md:w-1/2 lg:w-1/2 xl:w-1/2">
             <div class="max-w-md border border-transparent">
               <a href="https://www.instagram.com/bubblography/" target="_blank">
                 <img
@@ -158,70 +157,24 @@
         id="testimonials"
         class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6"
       >
-        <h2
-          class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
-        >
-          Testimonials
-        </h2>
-        <figure class="my-12">
-          <blockquote
-            class="relative rounded-3xl bg-teal-600 py-12 pl-14 pr-8 dark:bg-black"
-          >
-            <p
-              class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
-            >
-              Acme has always been there for me. Their Explorer rocket arrived
-              in a wooden crate as expected. Life-long customer! A++ shopping
-              experience.
-            </p>
-          </blockquote>
-          <figcaption
-            class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
-          >
-            &#8212;Wile E. Coyote, Genius
-          </figcaption>
-        </figure>
-        <figure class="my-12">
-          <blockquote
-            class="relative rounded-3xl bg-teal-600 py-12 pl-14 pr-8 dark:bg-black"
-          >
-            <p
-              class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
-            >
-              The Acme Adventurer Rocket has thwarted my Illudium Q-36 Explosive
-              Space Modulator on several occassions.
-              <span class="italic">This makes me very, very angry!</span>
-              Nevertheless, K-9 and I have awarded Acme the Martian contract for
-              space exploration rockets based on Acme's quality and sturdy
-              designs.
-            </p>
-          </blockquote>
-          <figcaption
-            class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
-          >
-            &#8212;Marvin The Martian &amp; K-9
-          </figcaption>
-        </figure>
-        <figure class="my-12">
-          <blockquote
-            class="relative rounded-3xl bg-teal-600 py-12 pl-14 pr-8 dark:bg-black"
-          >
-            <p
-              class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
-            >
-              I knew I not only wanted &#8212;
-              <span class="italic">I needed</span> &#8212; Acme's Infinity
-              Rocket for my mission in space. Acme delivered in one day! Nothing
-              says <q class="italic">Take me to your leader</q> like Acme's
-              Infinity Rocket! 💯
-            </p>
-          </blockquote>
-          <figcaption
-            class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
-          >
-            &#8212;Buzz Lightyear
-          </figcaption>
-        </figure>
+        <div class="bg-gray-100 py-8 sm:bg-transparent">
+          <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="lg:text-center">
+              <h2
+                class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+              >
+                About Me
+              </h2>
+              <p
+                class="mt-2 text-4xl font-extrabold leading-8 tracking-tight dark:text-white sm:text-4xl"
+              >
+                Hi, I'm
+              </p>
+              <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                Brief description of yourself here.
+            </div>
+          </div>
+        </div>
       </section>
 
       <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
